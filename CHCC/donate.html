@@ -8,170 +8,80 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="CSS/styles.css">
 
 	<style>
-
-	    html, body {
-	        height: 100%;
-	        margin: 0;
-	        padding: 0;
-	      }
-
-	    body {
-	        display: flex;
-	        flex-direction: column;
-	        min-height: 100vh;
-	        font-family: "Comfortaa", sans-serif;
-	    }
-
-	    .header {
-	        background-color: #f9c1b2;
-	        min-height: 85px;
-	        border-radius: 0 0 16px 16px;
-	        position: relative;
-	  		z-index: 1;
-	  		font-size: 14px;
-	  		color: #30383a;
-	    }
-
-	    .header img {
-	  		height: 70px;
-	  		padding: 0px 0;
-	  	}
-
-	    .header .nav-link {
-	        color: #30383a;
-	        font-family: "Comfortaa", sans-serif;
-	        font-size: 14px;
-	        font-weight: 600;
-	    }
-
-	    .header .nav-link:hover {
-	        color: #ffffff;
-	    }
-
-	    .header .navbar {
-	    	padding-left: 16px;
-	    	padding-right: 16px;
-	  	}
-
-		.book-btn {
-		  background-color: #30383a;
-		  color: #ffffff;
-		  font-family: "Comfortaa", sans-serif;
-		  font-size: 14px;
-		  font-weight: 600;
-		  border-radius: 20px;
-		  padding: 8px 20px;
-		  margin-left: 24px;
-		  margin-right: 16px;
-		}
-
-		.book-btn:hover {
-		  background-color: #ffffff;
-		  color: #30383a;
-		}
-
-	  .hero {
-	    flex: 1;
-	    background-color: #ffffff;
-	  }
-
 	  .donate-title {
-		  text-align: center;
-		  font-size: 60px;
-		  font-weight: 700;
-		  text-decoration: underline;
-		  color: #30383a;
-		  padding-top: 40px;
-		  margin-bottom: 20px;
-		}
-
-	  .donate-img {
-		  width: 100%;
-		  max-width: 500px;
-		  border-radius: 16px;
-		  object-fit: cover;
-		}
-
-		.donate-content {
-		  padding: 40px;
-		}
-
-		.donate-subtitle {
-		  font-size: 32px;
-		  font-weight: 700;
-		  text-decoration: underline;
-		  color: #30383a;
-		  margin-bottom: 16px;
-		}
-
-		.donate-text {
-		  font-size: 20px;
-		  color: #30383a;
-		  margin-bottom: 24px;
-		}
-
-		.donate-grid {
-		  display: grid;
-		  grid-template-columns: repeat(3, 1fr);
-		  gap: 12px;
-		  margin-bottom: 24px;
-		}
-
-		.donate-btn {
-		  background-color: #30383a;
-		  color: #59c9ab;
-		  font-family: "Comfortaa", sans-serif;
-		  font-size: 24px;
-		  font-weight: 700;
-		  border-radius: 12px;
-		  padding: 16px;
-		  text-decoration: underline;
-		}
-
-		.donate-btn:hover {
-		  background-color: #f9c1b2;
-		  color: #30383a;
-		}
-
-		.donate-grid input[type="radio"] {
-  		display: none;
-		}
-
-		.donate-grid input[type="radio"]:checked + label {
-  		background-color: #f9c1b2;
-  		color: #30383a;
-		}
-
-		.continue-btn {
-		  background-color: #59c9ab;
-		  color: #ffffff;
-		  font-family: "Comfortaa", sans-serif;
-		  font-size: 20px;
-		  font-weight: 600;
-		  border-radius: 30px;
-		  padding: 14px 40px;
-		}
-
-		.continue-btn:hover {
-		  background-color: #30383a;
-		  color: #ffffff;
-		}
-
-	  .footer {
-	    background-color: #f9c1b2;
-	    min-height: 60px;
-	    border-radius: 16px 16px 0 0;
-	    font-size: 14px;
+	    text-align: center;
+	    font-size: 60px;
+	    font-weight: 700;
+	    text-decoration: underline;
 	    color: #30383a;
-	    display: flex;
-	    align-items: center;
-	  	justify-content: center;
-	  	text-align: center;
-	   }
-
-    </style>
+	    padding-top: 40px;
+	    margin-bottom: 20px;
+	  }
+	  .donate-img {
+	    width: 100%;
+	    max-width: 500px;
+	    border-radius: 16px;
+	    object-fit: cover;
+	  }
+	  .donate-content {
+	    padding: 40px;
+	  }
+	  .donate-subtitle {
+	    font-size: 32px;
+	    font-weight: 700;
+	    text-decoration: underline;
+	    color: #30383a;
+	    margin-bottom: 16px;
+	  }
+	  .donate-text {
+	    font-size: 20px;
+	    color: #30383a;
+	    margin-bottom: 24px;
+	  }
+	  .donate-grid {
+	    display: grid;
+	    grid-template-columns: repeat(3, 1fr);
+	    gap: 12px;
+	    margin-bottom: 24px;
+	  }
+	  .donate-btn {
+	    background-color: #30383a;
+	    color: #59c9ab;
+	    font-family: "Comfortaa", sans-serif;
+	    font-size: 24px;
+	    font-weight: 700;
+	    border-radius: 12px;
+	    padding: 16px;
+	    text-decoration: underline;
+	  }
+	  .donate-btn:hover {
+	    background-color: #f9c1b2;
+	    color: #30383a;
+	  }
+	  .donate-grid input[type="radio"] {
+	    display: none;
+	  }
+	  .donate-grid input[type="radio"]:checked + label {
+	    background-color: #f9c1b2;
+	    color: #30383a;
+	  }
+	  .continue-btn {
+	    background-color: #59c9ab;
+	    color: #ffffff;
+	    font-family: "Comfortaa", sans-serif;
+	    font-size: 20px;
+	    font-weight: 600;
+	    border-radius: 30px;
+	    padding: 14px 40px;
+	  }
+	  .continue-btn:hover {
+	    background-color: #30383a;
+	    color: #ffffff;
+	  }
+	</style>
 
 	</head>
 		<body>

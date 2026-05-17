@@ -1,39 +1,77 @@
 html, body {
- height: 100%;
- margin: 0;
- padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-      body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-      }
-      .header {
-        background-color: #f9c1b2;
-        min-height: 60px;
-        border-radius: 0 0 16px 16px;
-        position: relative;
-  		z-index: 1;
-      }
 
-      .hero {
-        flex: 1;
-        background-color: #ffffff;
-      }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Comfortaa", sans-serif;
+}
 
-      .hero-home {
-      	flex: 1;
-        background-color: #ffffff;
-        background-image: url(images/cat_tree.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        margin-top: -16px;
-  		margin-bottom: -16px;
-      }
+.header {
+  background-color: #f9c1b2;
+  min-height: 85px;
+  border-radius: 0 0 16px 16px;
+  position: relative;
+  z-index: 1;
+  font-size: 14px;
+  color: #30383a;
+}
 
-      .footer {
-        background-color: #f9c1b2;
-        min-height: 60px;
-        border-radius: 16px 16px 0 0;
-      }
+.header img {
+  height: 70px;
+  padding: 0px 0;
+}
+
+.header .nav-link {
+  color: #30383a;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.header .nav-link:hover {
+  color: #ffffff;
+}
+
+.header .navbar {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.book-btn {
+  background-color: #30383a;
+  color: #ffffff;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 8px 20px;
+  margin-left: 24px;
+  margin-right: 16px;
+}
+
+.book-btn:hover {
+  background-color: #ffffff;
+  color: #30383a;
+}
+
+.hero {
+  flex: 1;
+  background-color: #ffffff;
+}
+
+.footer {
+  background-color: #f9c1b2;
+  min-height: 60px;
+  border-radius: 16px 16px 0 0;
+  font-size: 14px;
+  color: #30383a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
